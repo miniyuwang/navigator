@@ -1,0 +1,153 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+a {
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Wrapper */
+#wrapper {
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 1200px;
+  height: 500px;
+  background: lightblue;
+}
+
+.nav {
+  width: 1000px;
+  height: 35px;
+  margin: 0 auto;
+}
+
+.nav:not(:first-child) {
+  margin-top: 100px;
+}
+
+/* Nav01 */
+.nav01 {
+  background: lightcoral;
+}
+
+.nav01 ul {
+  font-size: 0;
+}
+
+.nav01 ul li {
+  display: inline-block;
+  border-right: 1px solid #000;
+  padding-top: 4px;
+  height: 28px;
+  background: lightgoldenrodyellow;
+}
+
+.nav01 ul li:not(:last-child) {
+  margin-right: 1px;
+}
+
+.nav01 ul li:hover {
+  background: lightsalmon;
+}
+
+.nav01 ul li a {
+  display: block;
+  padding: 0 27px;
+  height: 28px;
+  line-height: 28px;
+  color: #333;
+  background: lightgreen;
+}
+
+.nav01 ul li:hover a {
+  color: #ffd;
+  background: lightseagreen;
+}
+
+/* Nav02 */
+.nav02 {
+  background: lightseagreen;
+}
+
+.nav02 ul {
+  overflow: hidden;
+  background: lightgreen;
+}
+
+.nav02 ul li {
+  float: left;
+}
+
+.nav02 ul li:not(:last-child) {
+  margin-right: 1px;
+}
+
+.nav02 ul li span {
+  display: block;
+  width: 72px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.nav02 ul li .en {
+  color: #333;
+  background: lightcoral;
+}
+
+.nav02 ul li .zh {
+  display: none;
+  color: #eee;
+  background: lightsalmon;
+}
+
+.nav02 ul a:hover .en {
+  display: none;
+}
+
+.nav02 ul a:hover .zh {
+  display: block;
+}
+
+/* Nav03 */
+.nav03 ul {
+  border-bottom: 1px solid #999;
+  height: 40px;
+  background: lightyellow;
+}
+
+.nav03 ul li {
+  margin: 0 5px;
+}
+
+.nav03 ul li a {
+  display: inline-block;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  padding: 0 15px;
+  height: 35px;
+  line-height: 35px;
+  color: #333;
+  vertical-align: top;
+  background: lightcyan;
+}
+
+.nav03 ul li a:hover {
+  margin-top: 0;
+  border-color: #999;
+  border-bottom: 1px solid lightpink;
+  height: 39px;
+  line-height: 39px;
+  color: #666;
+  background: lightpink;
+}
